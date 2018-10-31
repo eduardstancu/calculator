@@ -96,11 +96,11 @@
                         @csrf
                         <div class="form-group">
                           <label for="var_a">Insert a: </label>
-                          <input type="text" class="form-control" name="var_a" id="var_a" placeholder="Number a">
+                          <input type="number" class="form-control" name="var_a" pattern="[0-9]" min="0" max="10000000000" title="Only numbers!" id="var_a" placeholder="Number a">
                         </div>
                         <div class="form-group">
                           <label for="var_b">Insert b: </label>
-                          <input type="text" class="form-control" name="var_b" id="var_b" placeholder="Number b">
+                          <input type="number" class="form-control" name="var_b" pattern="[0-9]" min="0" max="10000000000" title="Only numbers!" id="var_b" placeholder="Number b">
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary" name="action" value="sum">+</button>

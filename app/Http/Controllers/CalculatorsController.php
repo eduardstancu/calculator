@@ -62,4 +62,6 @@ class CalculatorsController extends BaseController
     {
         return $varA/$varB;
     }
+
+    
 }
